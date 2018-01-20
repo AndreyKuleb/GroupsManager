@@ -1,0 +1,9 @@
+Bundle-Name: com.bmstu.groups.manager.core-api
+Bundle-SymbolicName: com.bmstu.groups.manager.core.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.bmstu.groups.manager.core.exception,\
+	com.bmstu.groups.manager.core.model,\
+	com.bmstu.groups.manager.core.service,\
+	com.bmstu.groups.manager.core.service.persistence
+-includeresource: META-INF/service.xml=../com.bmstu.groups.manager.core-service/service.xml
